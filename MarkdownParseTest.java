@@ -15,7 +15,7 @@ public class MarkdownParseTest {
         assertEquals(2, 1 + 1);
     }
 
-    
+
 
     @Test
     public void testGetLinks() throws IOException{
@@ -52,9 +52,10 @@ public class MarkdownParseTest {
         assertArrayEquals(actual.toArray(), links.toArray());
     }
 
+    
     @Test 
     public void add(){
 
-        assertEquals(5, 3+3);
+        assertEquals(5, 3+2);
     }
 }
